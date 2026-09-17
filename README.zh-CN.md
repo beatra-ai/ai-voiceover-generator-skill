@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="配音样片封面：一支麦克风和三条不同颜色的声波，分别对应样片里的三种声音。由 Beatra AI 生成。"></p>
+
+*配音样片封面：一支麦克风和三条不同颜色的声波，分别对应样片里的三种声音。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.1.8 |
+| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.1.9 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voiceover-narration-studio) 自动发布，问题请到那里反馈。
 
@@ -40,6 +44,24 @@ gh skill install beatra-ai/ai-voiceover-generator-skill voiceover-narration-stud
 
 ```text
 从 https://github.com/beatra-ai/ai-voiceover-generator-skill 安装 voiceover-narration-studio skill（目录 skills/voiceover-narration-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="配音样片封面：一支麦克风和三条不同颜色的声波，分别对应样片里的三种声音。由 Beatra AI 生成。"></p>
+
+[▶ 试听（MP3）](assets/sample.mp3)
+
+*用三个预设声音依次朗读三段短文案：平静的产品讲解、轻快的短视频广告和纪录片旁白，共 41 秒。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+Meet Tidewell, a desk lamp that follows your day. In the morning, it glows cool and bright for focus. After sunset, it turns warmer, so your eyes can rest.
+
+Okay, stop scrolling! Crunchlane spicy mango chips are here: sweet, hot, and seriously crunchy. Grab a bag this Saturday, and tell us how fast it disappeared!
+
+High in the northern mountains, the first snow falls without a sound. A red fox stops and listens. Something small is moving beneath the snow. She waits. Then she leaps.
 ```
 
 ## 你能得到什么

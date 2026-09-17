@@ -14,9 +14,13 @@ Pick or reuse a voice, turn scripts into narration ready for editing, plan order
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="A narration studio cover with a microphone and three colored waveforms, one for each voice in the sample. AI-generated with Beatra."></p>
+
+*A narration studio cover with a microphone and three colored waveforms, one for each voice in the sample. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.1.8 |
+| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.1.9 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voiceover-narration-studio). Report issues there.
 
@@ -41,6 +45,24 @@ Or paste this into your agent:
 
 ```text
 Install the voiceover-narration-studio skill from https://github.com/beatra-ai/ai-voiceover-generator-skill (folder skills/voiceover-narration-studio), then follow its SKILL.md to connect my Beatra account.
+```
+
+## Examples
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="A narration studio cover with a microphone and three colored waveforms, one for each voice in the sample. AI-generated with Beatra."></p>
+
+[▶ Listen (MP3)](assets/sample.mp3)
+
+*Three short reads in three preset voices, in order: a calm product explainer, an upbeat short-video ad, and a documentary line, 41 seconds in total. AI-generated with Beatra.*
+
+Prompt:
+
+```text
+Meet Tidewell, a desk lamp that follows your day. In the morning, it glows cool and bright for focus. After sunset, it turns warmer, so your eyes can rest.
+
+Okay, stop scrolling! Crunchlane spicy mango chips are here: sweet, hot, and seriously crunchy. Grab a bag this Saturday, and tell us how fast it disappeared!
+
+High in the northern mountains, the first snow falls without a sound. A red fox stops and listens. Something small is moving beneath the snow. She waits. Then she leaps.
 ```
 
 ## What you get
