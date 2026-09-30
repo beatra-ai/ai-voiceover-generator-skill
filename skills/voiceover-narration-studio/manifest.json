@@ -1,5 +1,5 @@
 {
-  "changelog": "When Beatra authorization expires, reconnect and wait until Ready before retrying.",
+  "changelog": "Connecting Beatra is smoother: the helper waits for your approval, and if you approve after it has stopped waiting, Beatra connects automatically the next time you use it, with no second approval.",
   "display_name": "Voiceover & Narration Studio",
   "entry": "SKILL.md",
   "homepage": "https://beatra.ai/skills/voiceover-narration-studio",
@@ -80,5 +80,5 @@
   },
   "name": "voiceover-narration-studio",
   "schema_version": 1,
-  "version": "0.1.9"
+  "version": "0.2.2"
 }

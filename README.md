@@ -20,7 +20,7 @@ Pick or reuse a voice, turn scripts into narration ready for editing, plan order
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.1.9 |
+| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.2.2 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voiceover-narration-studio). Report issues there.
 
