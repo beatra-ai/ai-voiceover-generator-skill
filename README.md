@@ -1,6 +1,8 @@
 # AI Voiceover Generator Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Voice Cloning Skill](https://github.com/beatra-ai/ai-voice-cloning-skill)
 
 Pick or reuse a voice, turn scripts into narration ready for editing, plan ordered long-form or multilingual audio, and create a reusable custom voice, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -56,6 +58,12 @@ Install the voiceover-narration-studio skill from https://github.com/beatra-ai/a
 [▶ Listen (MP3)](assets/sample.mp3)
 
 *Three short reads in three preset voices, in order: a calm product explainer, an upbeat short-video ad, and a documentary line, 41 seconds in total. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+Read these three short scripts in three different preset voices: a calm product explainer for the Tidewell desk lamp, an upbeat short-video ad for Crunchlane chips, and one documentary line. Deliver the three reads in that order.
+```
 
 Prompt:
 

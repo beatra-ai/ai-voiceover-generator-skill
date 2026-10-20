@@ -1,6 +1,8 @@
 # AI Voiceover Generator Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Voice Cloning Skill](https://github.com/beatra-ai/ai-voice-cloning-skill)
 
 从同一个入口选声音、把文稿做成可剪辑的配音、安排长篇或多语言音频，并创建可复用的品牌音色，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -54,6 +56,12 @@ gh skill install beatra-ai/ai-voiceover-generator-skill voiceover-narration-stud
 [▶ 试听（MP3）](assets/sample.mp3)
 
 *用三个预设声音依次朗读三段短文案：平静的产品讲解、轻快的短视频广告和纪录片旁白，共 41 秒。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+用三个不同的预设声音读这三段短稿：Tidewell 台灯的平静产品讲解、Crunchlane 薯片的活泼短视频广告、一句纪录片旁白。按这个顺序交付三段音频。
+```
 
 提示词：
 
