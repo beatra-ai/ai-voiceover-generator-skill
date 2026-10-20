@@ -7,7 +7,7 @@
 从同一个入口选声音、把文稿做成可剪辑的配音、安排长篇或多语言音频，并创建可复用的品牌音色，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
 > [!IMPORTANT]
-> 生成需要 [Beatra](https://beatra.ai) 账号并消耗积分，安装本身不收费。
+> 生成需要 [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill) 账号并消耗积分，安装本身不收费。
 
 | 问题 | 回答 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.2.7 |
+| [`voiceover-narration-studio`](skills/voiceover-narration-studio) | [SKILL.md](skills/voiceover-narration-studio/SKILL.md) | 0.2.8 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/voiceover-narration-studio) 自动发布，问题请到那里反馈。
 
@@ -101,7 +101,7 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 | 支持的 Agent | Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw | Claude Code、Cursor、Codex、Copilot 及另外 70 多种编程 Agent（[出处](https://github.com/scenario-labs/skills/blob/49dd26e47371163ae0020c7f5627d0993626bfc2/README.md#L30)） | Claude Code、Cursor、Windsurf、OpenCode、ClawHub 以及任何支持 Agent Skills 的工具（[出处](https://github.com/vargHQ/skills/blob/862c0297ba2063b10eeb5d4d1058b0f90dc9f92d/README.md#L10)） |
 | 安装 | `npx skills add beatra-ai/ai-voiceover-generator-skill` | `npx skills add scenario-labs/skills`，再连接 Scenario MCP 服务器（https://mcp.scenario.com/mcp）（[出处](https://github.com/scenario-labs/skills/blob/49dd26e47371163ae0020c7f5627d0993626bfc2/README.md#L89-L105)） | `npx skills add vargHQ/skills`（[出处](https://github.com/vargHQ/skills/blob/862c0297ba2063b10eeb5d4d1058b0f90dc9f92d/README.md#L59)） |
 | 许可证 | MIT-0 | MIT（[出处](https://github.com/scenario-labs/skills/blob/49dd26e47371163ae0020c7f5627d0993626bfc2/LICENSE)） | MIT（[出处](https://github.com/vargHQ/skills/blob/862c0297ba2063b10eeb5d4d1058b0f90dc9f92d/LICENSE)） |
-| 最近更新 | 随每次发布更新（v0.2.7） | 2026-10-15（[出处](https://github.com/scenario-labs/skills/commit/49dd26e47371163ae0020c7f5627d0993626bfc2)） | 2026-10-01（[出处](https://github.com/vargHQ/skills/commit/862c0297ba2063b10eeb5d4d1058b0f90dc9f92d)） |
+| 最近更新 | 随每次发布更新（v0.2.8） | 2026-10-15（[出处](https://github.com/scenario-labs/skills/commit/49dd26e47371163ae0020c7f5627d0993626bfc2)） | 2026-10-01（[出处](https://github.com/vargHQ/skills/commit/862c0297ba2063b10eeb5d4d1058b0f90dc9f92d)） |
 
 事实核对于 2026-10-16。有误请到 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/issues) 提 issue。
 
@@ -148,8 +148,8 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 
 ## 相关链接
 
-- 官网 — https://www.beatra.cn
-- 文档 — https://docs.beatra.cn
+- 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill
+- 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill
 - 控制台 — https://console.beatra.cn
 - 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
 
