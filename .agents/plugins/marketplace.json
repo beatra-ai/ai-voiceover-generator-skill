@@ -1,0 +1,20 @@
+{
+  "name": "ai-voiceover-generator-skill",
+  "interface": {
+    "displayName": "AI Voiceover Generator"
+  },
+  "plugins": [
+    {
+      "name": "voiceover-narration-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/ai-voiceover-generator-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+claude plugin install voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+codex plugin add voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+copilot plugin install voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-voiceover-generator-skill
+```
+
 With the GitHub CLI:
 
 ```bash

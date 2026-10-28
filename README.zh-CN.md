@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-voiceover-generator-skill
 ```
 
+作为 Claude Code 插件：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+claude plugin install voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+作为 Codex 插件：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+codex plugin add voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+作为 GitHub Copilot CLI 插件：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-voiceover-generator-skill
+copilot plugin install voiceover-narration-studio@ai-voiceover-generator-skill
+```
+
+作为 Gemini CLI 扩展：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-voiceover-generator-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
