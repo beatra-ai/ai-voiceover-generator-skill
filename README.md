@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-voiceover-generator-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voiceover-generator-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -101,6 +107,14 @@ Okay, stop scrolling! Crunchlane spicy mango chips are here: sweet, hot, and ser
 
 High in the northern mountains, the first snow falls without a sound. A red fox stops and listens. Something small is moving beneath the snow. She waits. Then she leaps.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Text — A prepared script, its language, and the voice you want | — | — |
+| **Input** | Audio — Clean sample for a custom brand voice (optional) | MP3, WAV | 10–300 s; up to 20 MB each |
+| **Output** | Audio — Ready-to-edit narration, by chapter for long-form and by language for multilingual work | MP3, WAV, FLAC, OPUS | — |
 
 ## Technical Specifications & Output Limits
 
@@ -155,15 +169,15 @@ You can make a single voiceover, ordered audiobook or course narration, audio fr
 
 ### How many languages are available?
 
-Current live speech models cover 40 languages, including Mandarin Chinese and Cantonese. Each production still checks both the selected current voice and the speech model for the requested language.
+Forty, including Mandarin Chinese and Cantonese, each read in a voice that supports that language.
 
 ### Can I use my own voice?
 
-Yes. Use a clean single-speaker sample to create a named custom voice, then select it again for later narration, courses, updates, and recurring brand content.
+Yes. A clean single-speaker sample becomes a named custom voice for later narration, courses, updates, and recurring brand content.
 
-### How are long-form and multilingual projects organized?
+### How are long-form and multilingual projects delivered?
 
-Audio is arranged by chapter, lesson, language, market, or recurring use case, making each delivered item easy to review, edit, and reuse.
+In separate files by chapter, lesson, language, or market.
 
 ## Updates and security
 
@@ -174,9 +188,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill).
 
 ## Links
 

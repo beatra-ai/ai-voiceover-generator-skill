@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-voiceover-generator-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voiceover-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -100,6 +106,14 @@ Okay, stop scrolling! Crunchlane spicy mango chips are here: sweet, hot, and ser
 High in the northern mountains, the first snow falls without a sound. A red fox stops and listens. Something small is moving beneath the snow. She waits. Then she leaps.
 ```
 
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | テキスト：整えた原稿、言語、希望のボイス | — | — |
+| **入力** | 音声：ブランドボイスを作るためのクリアなサンプル（任意） | MP3、WAV | 10〜300 秒／1 ファイル最大 20 MB |
+| **出力** | 音声：編集に使えるナレーション（長編は章ごと、多言語は言語ごと） | MP3、WAV、FLAC、OPUS | — |
+
 ## 技術仕様と出力上限
 
 2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
@@ -126,19 +140,19 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 
 ### どのような音声を作れますか？
 
-一つの動画ナレーション、順番のあるオーディオブックや教材、多言語原稿による読み上げ、再利用できるカスタム音声を作れます。
+一つの動画ナレーション、順番のあるオーディオブックや教材、多言語原稿による読み上げ、再利用できるカスタムボイスを作れます。
 
 ### どの言語に対応していますか？
 
-現在の音声合成モデルは40言語に対応し、中国語（標準語）、広東語などを含みます。制作ごとに、現在選んだ声と音声合成モデルの両方が対象言語に対応するか確認します。
+40言語です。中国語（標準語）や広東語も含み、それぞれの言語に対応したボイスで読み上げます。
 
 ### 自分の声を使えますか？
 
-はい。一人が話すクリアなサンプルから名前付きの声を作り、後のナレーション、教材、お知らせ、継続するブランドコンテンツにも選べます。
+はい。1人が話すクリアなサンプルから名前付きのボイスを作り、後のナレーション、教材、お知らせ、継続するブランドコンテンツにも使えます。
 
-### 長編や多言語の音声はどう整理されますか？
+### 長編や多言語の音声はどう渡されますか？
 
-章、教材、言語、市場、継続する用途ごとに音声を整理し、各項目を確認、編集、再利用しやすくします。
+章・教材・言語・市場ごとに分けて渡します。
 
 ## 更新とセキュリティ
 
@@ -148,7 +162,9 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill)が適用されます。
 
 ## リンク
 

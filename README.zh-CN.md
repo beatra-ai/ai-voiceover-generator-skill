@@ -62,6 +62,12 @@ copilot plugin install voiceover-narration-studio@ai-voiceover-generator-skill
 gemini extensions install https://github.com/beatra-ai/ai-voiceover-generator-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-voiceover-generator-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -99,6 +105,14 @@ Okay, stop scrolling! Crunchlane spicy mango chips are here: sweet, hot, and ser
 
 High in the northern mountains, the first snow falls without a sound. A red fox stops and listens. Something small is moving beneath the snow. She waits. Then she leaps.
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 文本：整理好的文稿、语言和想要的音色 | — | — |
+| **输入** | 音频：用于克隆品牌音色的清晰样本（可选） | MP3、WAV | 10–300 秒；单个文件最大 20 MB |
+| **输出** | 音频：可直接剪辑的配音，长篇按章节、多语言按语言交付 | MP3、WAV、FLAC、OPUS | — |
 
 ## 技术规格与输出限制
 
@@ -149,19 +163,19 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 
 ### 可以制作哪些语音内容？
 
-可以制作单条短视频配音、按顺序安排的有声书或课程旁白、基于各语言文稿的多语言音频，也可以创建可复用的品牌专属声音。
+可以制作单条短视频配音、按顺序安排的有声书或课程旁白、按语言分别交付的多语言配音，也可以创建可复用的品牌专属音色。
 
 ### 支持哪些语言？
 
-当前语音合成模型覆盖 40 种语言，包括普通话和粤语；每次制作仍会确认当前所选音色和语音合成模型都支持目标语言。
+40 种，包括普通话和粤语，每种语言都用支持该语言的音色来读。
 
 ### 可以使用自己的声音吗？
 
 可以。使用单人清晰样本创建有名字的音色，再用于后续旁白、课程、通知和持续更新的品牌内容。
 
-### 长篇和多语言项目怎样保持清晰顺序？
+### 长篇和多语言的音频怎么交付？
 
-音频可按章节、课程、语言、市场或持续更新场景整理，让每一段成品都方便查看、剪辑和复用。
+按章节、课程、语言或市场分开交付。
 
 ## 更新与安全
 
@@ -171,7 +185,9 @@ High in the northern mountains, the first snow falls without a sound. A red fox 
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-voiceover-generator-skill)。
 
 ## 相关链接
 
